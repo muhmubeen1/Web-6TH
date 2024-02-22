@@ -1,0 +1,54 @@
+body{
+    background-image:url("images/wallpaperflare.com_wallpaper\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    color:white;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+.para{
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 30px;
+    text-align:center;
+    border-style: inset;
+    color: black;
+    background-color: hsla(0, 0%, 100%,0.4);
+    background-image: url("/images/snowy-mountain-with-crescent-moon-illustration-art-a2gv9dzvtlr76dx2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    border-width: 20px;
+    border-radius: 40px;
+    text-transform: capitalize;
+    font-size: 16px;
+   
+
+}
+
+.container{
+    border-width: 20px;
+    border-color: aqua;
+    border-style: groove;
+    padding: 50px;
+}
+
+.container p{
+    color: white;
+    border-radius: 10px;
+    border-color: black;
+    border-style: double;
+    margin: 20px auto 0px auto;
+    padding: 30px;
+    width: 350px;
+    word-spacing: 5px;
+    
+
+}

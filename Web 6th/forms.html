@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            background-color: #414141;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="url here" method="post" accept-charset="utf-8" autocomplete="on" enctype="application/x-www-form-urlencoded" autocapitalize="on">
+        <label for="fname">First Name</label>
+        <input type="text" placeholder="Enter your name" name="" id="fname"><br/>
+        <label for="lname">Last Name</label>
+        <input type="text" placeholder="Enter your  Last name" name="" id="lname"><br />
+        <label for="email"> Email</label>
+        <input type="text"placeholder="Enter your email" name="" id="email"> <br>
+        <button type="submit">Submit</button>
+        <label for="passsword">Enter passsword</label>
+        <input type="password" name="" id="passsword" placeholder="Enter your passsword" >
+        
+       
+
+    </form>
+    <form method="post">
+        <fieldset>
+            <legend>Do you Degree to terms</legend>
+            <label><input type="radio" name="radio" value="yes"></label>Yes</label>
+            <label><input type="radio" name="radio"value="NO">NO</label>
+        </fieldset>
+    </form>
+    <select name="" id="">
+        <option value="vscode">vscode</option>
+        <option value="chrome">chrome</option>
+    </select>
+    <input list="editors" name="editors">
+    <datalist id="editors">
+        
+        <option value="vscode">vscode</option>
+        <option value="chrome">chrome</option>
+    </datalist>
+    <input type="file" name="Choose File" id="">
+    <input type="date" name="date" id="">
+    <form action="" method="post">
+        <fieldset>
+            <legend>Do you Degree to terms</legend>
+            <label><input type="radio" name="radio" value="yes">Yes</label>
+            <label ><input type="radio" value="no" name="radio"> No</label>
+            <legend>Seleect the Gender</legend>
+            <label><input type="radio" name="radio" value="male"> male</label>
+            <label><input type="radio" name="radio" value ="female">female</label>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+    <form action="">
+        <input type="range" name="range" id="" max="10000">
+    </form>
+</body>
+</html>

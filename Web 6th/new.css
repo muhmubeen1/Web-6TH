@@ -1,0 +1,63 @@
+body{
+    background-image: url("./images/wallpaperflare.com_wallpaper\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+header h1{
+    color: white;
+    font-size: 50px;
+}
+header
+{
+    text-align: center
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav
+{
+    word-spacing: 120px;
+ 
+}
+nav input{
+    width: 300px;
+    padding: 15px;
+    margin-right: 60px;
+    border-radius: 10px;
+}
+.container
+{   display: flex;
+    justify-content:space-evenly;
+    
+    width: 88%;
+    height: 50%;
+    margin:50px auto 0px auto;
+}
+
+.container article
+{
+    background-color: hsla(0, 3%, 6%, 0.5);
+    width: 250px;
+    height: 350px;
+    margin : 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    transition: transform 0.5s;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    
+    
+} 
+article:hover{
+    background-color: hsla(4, 88%, 46%, 0.5);
+    transform: scale(1.2);
+    
+}
